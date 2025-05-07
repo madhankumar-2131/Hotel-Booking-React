@@ -1,0 +1,36 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: #1e2a38; /* Dark background for the footer */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer__left p {
+    margin: 0;
+  }
+  
+  .footer__right {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer__link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footer__link:hover {
+    text-decoration: underline;
+  }
+  

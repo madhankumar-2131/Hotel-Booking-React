@@ -1,0 +1,28 @@
+/* src/components/Testimonials.css */
+  
+.testimonials-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .testimonial {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+  }
+  
+  .testimonial p {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .testimonial span {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+  }
+  

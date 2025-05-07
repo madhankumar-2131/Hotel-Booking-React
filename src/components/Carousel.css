@@ -1,0 +1,54 @@
+/* src/components/Carousel.css */
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .carousel-item {
+    flex: none;
+    width: 300px;
+    scroll-snap-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+  }
+    .carousel-item:hover{
+      flex: none;
+      width: 300px;
+      scroll-snap-align: center;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      text-align: center;
+      box-shadow: 3px 4px 15px black;
+    }
+   
+  
+  .carousel-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .carousel-item h3 {
+    margin: 15px 0 10px;
+  }
+  
+  .carousel-item p {
+    color: #666;
+  }
+  
+  .carousel-item a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  

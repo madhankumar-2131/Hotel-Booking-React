@@ -1,0 +1,15 @@
+/* src/components/HotelList.css */
+
+.hotel-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .hotel-list p {
+    text-align: center;
+    font-size: 1.25rem;
+    color: #555;
+  }
+  

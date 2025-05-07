@@ -1,0 +1,63 @@
+/* src/pages/HomePage.css */
+
+.homepage {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa; /* Light teal background */
+  color: #333;
+}
+
+.hero {
+  background: url('/images/hero-bg.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 123, 255, 0.5); /* Cool blue overlay */
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.featured-hotels, .popular-destinations, .hotel-list-section, .testimonials {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.featured-hotels h2, .popular-destinations h2, .hotel-list-section h2, .testimonials h2 {
+  margin-bottom: 30px;
+}
+
+.destination-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.destination-cards a {
+  background-color: #b2ebf2; /* Light teal background for cards */
+  padding: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #00796b; /* Dark teal text */
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.destination-cards a:hover {
+  background-color: #80deea; /* Slightly darker teal on hover */
+}
+
+.testimonials {
+  background-color: #e0f7fa; /* Same light teal background as homepage */
+}
+
+.testimonials h2 {
+  margin-bottom: 20px;
+}

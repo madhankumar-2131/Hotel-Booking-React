@@ -1,0 +1,55 @@
+/* src/components/Reviews.css */
+
+.reviews-container {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .reviews-container h3 {
+    margin: 0 0 20px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .review {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+  }
+  
+  .review p {
+    margin: 0;
+    color: #555;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin: 10px 0;
+    box-sizing: border-box;
+    resize: vertical; /* Allow vertical resizing only */
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
